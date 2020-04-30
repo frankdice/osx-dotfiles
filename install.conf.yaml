@@ -1,0 +1,15 @@
+- clean: ['~']
+
+- defaults:
+    link:
+      create: true
+      relink: true
+      relative: true
+      force: true
+
+- link:
+    ~/.Brewfile:
+    ~/.hammerspoon/init.lua: hammerspoon/init.lua
+
+- brewfile:
+    - Brewfile
