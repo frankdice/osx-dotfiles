@@ -10,6 +10,7 @@
 - link:
     ~/.Brewfile:
     ~/.hammerspoon/init.lua: hammerspoon/init.lua
+    ~/Library/KeyBindings/DefaultKeyBinding.dict: 
 
 - brewfile:
     - Brewfile

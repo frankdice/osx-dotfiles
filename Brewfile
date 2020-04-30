@@ -6,3 +6,5 @@ brew 'kubernetes-helm'
 brew 'kustomize'
 
 brew 'fzf'
+brew 'ipcalc'
+brew 'jq'
