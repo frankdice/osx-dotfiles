@@ -11,6 +11,10 @@
     ~/.Brewfile:
     ~/.hammerspoon/init.lua: hammerspoon/init.lua
     ~/Library/KeyBindings/DefaultKeyBinding.dict: 
+    ~/.bash_profile:
+    ~/bin/:
+        glob: true
+        path: bin/*
 
 - brewfile:
     - Brewfile
