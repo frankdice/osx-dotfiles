@@ -6,6 +6,9 @@ if [ -f '/Users/frank.dice/bin/google-cloud-sdk/path.bash.inc' ]; then . '/Users
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/frank.dice/bin/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/frank.dice/bin/google-cloud-sdk/completion.bash.inc'; fi
 
+#Bash autocompletion
+[[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
+
 #OktaAWSCLI
 if [[ -f "$HOME/.okta/bash_functions" ]]; then
     . "$HOME/.okta/bash_functions"
@@ -18,6 +21,8 @@ alias adc="source ~/bin/app-default-credentials"
 alias kc="~/bin/kubectl-fzf.sh"
 alias gc="~/bin/gcloud-fzf.sh"
 alias k="~/bin/kubectl-ns-helper.sh"
+alias gs="~/bin/gcloud-ssh-fzf.sh"
+
 
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/dev
